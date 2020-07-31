@@ -13,10 +13,12 @@ sizes = []
   
 # find smallest value in Array of sizes 
 
-small_size = 100000 * 100000
+small_size = 0 
 
   sizes.each do |i|
-    if i < small_size then small_size = i 
+    if small_size == 0 then small_size = i 
+      elsif
+           i < small_size then small_size = i 
   end
  end
  

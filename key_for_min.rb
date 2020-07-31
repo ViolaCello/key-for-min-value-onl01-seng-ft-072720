@@ -3,4 +3,11 @@
 
 def key_for_min_value(name_hash)
 
+keyss = []
+
+name_hash.collect do |k, v|
+  if v == (name_hash.find < v) 
+    return k 
+end
+end
 end

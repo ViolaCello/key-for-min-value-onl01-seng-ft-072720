@@ -22,7 +22,12 @@ small_size = 0
   end
  end
  
+ # match the small_size number to the value and key from the hash 
  
+ name_hash.each do |i, j|
+   if j == small_size then return i 
+ end
+ end
 
 
 
